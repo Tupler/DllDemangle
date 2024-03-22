@@ -5,10 +5,10 @@
 
 ## 使用方法
 
-1.编译llvm-demangle
-2.放入Demangle-Test主目录中（或者自己修改输入lib库）
-3.编译Demangle-Test
-4.使用命令行 `Demangle-Test.txt xxx.exe xxx.dll`
+1. 编译llvm-demangle
+2. 放入Demangle-Test主目录中（或者自己修改输入lib库）
+3. 编译Demangle-Test
+4. 使用命令行 `Demangle-Test.txt xxx.exe xxx.dll`
 
 ## 演示视频
 
