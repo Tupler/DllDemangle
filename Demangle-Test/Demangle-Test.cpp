@@ -210,27 +210,6 @@ int main(int argc,char** argv)
     }
     
     
-   /* typedef int(*Demangle)(char* exportName,char*);
-
-    FARPROC Daddr = GetProcAddress(LoadLibraryA("Demangle-Dll.dll"), "Demangle");
-    Demangle pDemangle = (Demangle)(Daddr);*/
-  /*  char *decodeName = argv[1];
-    if (decodeName[0]!='?' && decodeName[0]=='_')
-    {
-
-        return 0;
-    }
-    if (decodeName[0] == '?') {
-        temp = llvm::microsoftDemangle(decodeName);
-        if (res == -1)
-        {
-            std::cerr << "error";
-            return -1;
-        }
-        std::cout << temp;
-    }
-*/
-
     }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
