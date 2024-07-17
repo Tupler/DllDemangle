@@ -92,18 +92,8 @@ namespace llvm {
     };
 } 
 
-// namespace llvm
-
-//enum MSDemangleFlags { MSDF_None = 0, MSDF_DumpBackrefs = 1 << 0 };
-//char* microsoftDemangle(const char* mangled_name, char* buf, size_t* n,
-//    int* status, MSDemangleFlags Flags = MSDF_None);
-
-
 void ShowHelp() {
-
-    std::cout << "Usage:Demangle.exe CFucntion" << std::endl;
-
-
+    std::cout << "Usage:Demangle.exe exePath DllName" << std::endl;
 }
 
 std::string GetTheDemangle(char* funcName) {
@@ -116,11 +106,8 @@ std::string GetTheDemangle(char* funcName) {
 }
 int main(int argc,char** argv)
 {
-   /* int status;
-    size_t NameLen;
-    char *temp=(char*)malloc(65535);
-    temp = llvm::microsoftDemangle("?UrlEncode@crypto@util@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV34@@Z", nullptr, &NameLen, &status);*/
-    
+
+    std::cout << "author:tupler" << std::endl;
     if (argc != 3) {
         ShowHelp();
          return 0;
